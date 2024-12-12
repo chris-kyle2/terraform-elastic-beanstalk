@@ -23,7 +23,7 @@ variable "username" {
 
 }
 variable "MYIP" {
-  default = "183.83.39.124/32"
+  default = "45.118.156/32"
 
 }
 
