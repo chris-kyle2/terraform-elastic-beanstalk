@@ -22,8 +22,9 @@ variable "username" {
   default = "ubuntu"
 
 }
-variable "MYIP" {
-  default = "45.118.156/32"
+variable "MY_IP" {
+  type = string
+  default = "45.118.156.116/32"
 
 }
 
