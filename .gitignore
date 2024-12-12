@@ -1,0 +1,20 @@
+# Private keys
+vprofilekey
+*.pem
+
+# Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+.terraform/
+
+# macOS system files
+.DS_Store
+
+# Editor-specific files
+.vscode/
+.idea/
+
+# Log and temp files
+*.log
+*.tmp
+
