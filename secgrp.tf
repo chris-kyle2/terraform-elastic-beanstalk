@@ -18,7 +18,7 @@ resource "aws_security_group" "vprofile-bean-elb-sg" {
 resource "aws_security_group" "vprofile-bastion-sg" {
   name = "vprofile-bastion-sg"
   description = "Security-group-for-bastion-ec2-instance"
-  vpc_id = moduule.vpc.vpc_id
+  vpc_id = module.vpc.vpc_id
 
   egress {
     from_port = 0
